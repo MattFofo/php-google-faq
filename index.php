@@ -87,16 +87,16 @@
         <?php
         } else { ?>
             <p><?= $faq['answer']['p1'][0] ?></p>
-            <ul>
+            <ol>
                 <li>
                     <?= $faq['answer']['list1'][0] ?>
-                    <ul>
+                    <ol>
                         <li><?= $faq['answer']['list2'][0] ?></li>
                         <li><?= $faq['answer']['list2'][1] ?></li>
-                    </ul>
+                    </ol>
                 </li>
                 <li><?= $faq['answer']['list1'][1] ?></li>
-            </ul>
+            </ol>
             <p><?= $faq['answer']['p1'][1] ?></p>
 
             <h4><?= $faq['answer']['titles'][0] ?></h4>
@@ -107,7 +107,7 @@
     }
 die();?> 
 
-
+<!-- metodo con struttura html nei dati -->
 <?php
     foreach ($arrFaq as $faq) { ?>
         <h2><?= $faq['question'] ?></h2>
