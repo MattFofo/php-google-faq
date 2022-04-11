@@ -94,7 +94,7 @@
         </div>
         <div class="main">
             <div class="container">
-                <!-- metodo con struttura html nella risposta dati -->
+                <!-- metodo con struttura html nella risposta -->
                 <?php
                     foreach ($arrFaq as $faq) { ?>
                         <h2><?= $faq['question'] ?></h2>
@@ -107,7 +107,7 @@
     </body>
 </html>
 
-<!-- metodo con senza html nella risposta (con liste) -->
+<!-- metodo senza html nella risposta (con liste) -->
 <?php
 /*
     foreach ($arrFaq as $faq) { ?>
